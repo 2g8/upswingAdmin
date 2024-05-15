@@ -36,9 +36,9 @@
         </div>
     {:else}
         <form class="m-b-base" on:submit|preventDefault={submit}>
-            <div class="content txt-center m-b-sm">
-                <h4 class="m-b-xs">Forgotten admin password</h4>
-                <p>Enter the email associated with your account and we’ll send you a recovery link:</p>
+            <div class="content m-b-sm">
+                <h4 class="m-b-xs">Forgotten admin password?</h4>
+                <p>Enter the email associated with your account to get a recovery link:</p>
             </div>
 
             <Field class="form-field required" name="email" let:uniqueId>
@@ -59,7 +59,7 @@
         </form>
     {/if}
 
-    <div class="content txt-center">
+    <div class="content">
         <a href="/login" class="link-hint" use:link>Back to login</a>
     </div>
 </FullPage>

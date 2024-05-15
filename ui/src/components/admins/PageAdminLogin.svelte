@@ -35,10 +35,7 @@
 
 <FullPage>
     <form class="block" on:submit|preventDefault={login}>
-        <div class="content txt-center m-b-base">
-            <h4>Admin sign in</h4>
-        </div>
-
+    
         <Field class="form-field required" name="identity" let:uniqueId>
             <label for={uniqueId}>Email</label>
             <!-- svelte-ignore a11y-autofocus -->

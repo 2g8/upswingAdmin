@@ -7,15 +7,14 @@
 <PageWrapper class="full-page" center>
     <div class="wrapper wrapper-sm m-b-xl panel-wrapper">
         {#if !nobranding}
-            <div class="block txt-center m-b-lg">
+            <div class="block m-b-base">
                 <figure class="logo">
                     <img
                         src="{import.meta.env.BASE_URL}images/logo.svg"
-                        alt="PocketBase logo"
-                        width="40"
-                        height="40"
+                        alt="Upswing Backend"
+                        width="55"
                     />
-                    <span class="txt">Pocket<strong>Base</strong></span>
+                    <span class="txt">Upswing <strong>Backend</strong></span>
                 </figure>
             </div>
             <div class="clearfix" />
